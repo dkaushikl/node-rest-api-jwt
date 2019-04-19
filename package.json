@@ -1,0 +1,32 @@
+{
+  "name": "rest-api-jwt",
+  "version": "1.0.0",
+  "description": "Sample jwt authentication demo using nodejs and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkaushikl/node-authentication.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "kaushik dhameliya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dkaushikl/node-authentication/issues"
+  },
+  "homepage": "https://github.com/dkaushikl/node-authentication#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "heroku": "^7.19.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.7",
+    "morgan": "^1.9.1"
+  }
+}
